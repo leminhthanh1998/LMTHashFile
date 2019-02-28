@@ -1,0 +1,100 @@
+﻿<Controls:MetroWindow x:Class="LMTHashFiles.Property"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      Title="Thuộc tính"
+                      Height="400"
+                      Width="705"
+                      ResizeMode="CanMinimize"
+                      GlowBrush="{DynamicResource AccentColorBrush}"
+                      WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Thuộc tính tệp tin" 
+                   Grid.Row="0"
+                   FontSize="22" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Tên"
+                   Margin="5"
+                   Grid.Row="1"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxName"
+                 Grid.Row="1"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="MD5" 
+                   Margin="5"
+                   Grid.Row="2"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxMD5"
+                 Grid.Row="2"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="SHA1" 
+                   Margin="5"
+                   Grid.Row="3"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxSHA1"
+                 Grid.Row="3"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="SHA256" 
+                   Margin="5"
+                   Grid.Row="4"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxSHA256"
+                 Grid.Row="4"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="Đường dẫn" 
+                   Margin="5"
+                   Grid.Row="5"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxPath"
+                 Grid.Row="5"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="Kích thước" 
+                   Margin="5"
+                   Grid.Row="6"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxSize"
+                 Grid.Row="6"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="Loại tệp" 
+                   Margin="5"
+                   Grid.Row="7"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxFileType"
+                 Grid.Row="7"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="Ngày tạo" 
+                   Margin="5"
+                   Grid.Row="8"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxDateCreate"
+                 Grid.Row="8"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+        <TextBlock Text="Ngày sửa đổi" 
+                   Margin="5"
+                   Grid.Row="9"
+                   FontSize="15" VerticalAlignment="Center"></TextBlock>
+        <TextBox x:Name="TextBoxDateModify"
+                 Grid.Row="9"
+                 Margin="95,0,0,0"
+                 Height="20" VerticalAlignment="Center"></TextBox>
+    </Grid>
+</Controls:MetroWindow>
