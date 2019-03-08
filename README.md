@@ -1,6 +1,6 @@
 # LMTHashFile
 A software to help you quickly see the Hash code of files
-![Minion](https://leminhthanh1998.github.io/soundcloud-downloader/images/banner.jpg)
+![Minion](https://leminhthanh1998.github.io/lmt-hash-file/images/banner.jpg)
 
 Chi tiết: https://leminhthanh1998.github.io/lmt-hash-file/
 
